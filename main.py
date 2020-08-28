@@ -39,3 +39,9 @@ dropdown = OptionMenu(root, var, *list_countries)
 dropdown.config(width=10)
 var.set("Select")
 dropdown.place(x=250, y=244)
+
+email = Label(root, text="Email").place(x=160, y=280)
+textbox3 = Text(root, height=1, width=20).place(x=250, y=280)
+
+sumbit = Button(root, text="Submit", width=10, height=1, fg="white", bg="black", command=onclick).place(x=240, y=330)
+mainloop()
